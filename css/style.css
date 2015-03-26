@@ -1,77 +1,141 @@
 .container {
-	width: 1000px;
+	background-color: #FFE4E1;
 	margin: 0 auto;
-}
-
-header {
-	width: 1000px;
-}
-
-nav {
-	background-color: #3E7CA5;
 	padding: 20px;
-	margin-bottom: 5px;
-
+	color: #DB7093;
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: left;
+	width: 1250px;
+	height: 3000px;
 }
 
-nav ul {
-	text-align: center;
-	padding: 20px;
+body {
+	background-image: url('../img/Anthropologie14.jpg');
 }
 
-nav ul li {
-	list-style-type:  none;
-	display: inline;
-	margin: 0 15px;
-}
-
-a:link {
-	text-decoration: none;
-	color: #fff;
-}
-
-a:visited {
-	color: #000;
-}
-
-a:hover {
-	color: #999;
-}
-
-a:active {
-	color: #CC3300;
-}
-
-.top {
-	border: 2px solid #000000;
-	width: 500px;
-	height: 500px;
-	float: left;
-	padding: 10px;
-	margin-bottom: 10px;
-}
-
-.bottom {
-	border: 2px solid #000000;
-	width: 500px;
-	height: 200px;
-	float: left;
-	padding: 10px;
-}
-
-aside {
-	width: 300px;
-	height: 700px;
-	background-color: #3E7CA5;
-	float: right;
-	padding: 10px;
-}
-
-footer {
-	clear: both;
-	padding: 5px;
+h1 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 30px;
 }
 
 p {
-	text-align: justify;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
 }
+
+main {
+	text-align: left;
+}
+
+#header a {
+	display: inline-block;
+	color: #DB7093;
+	border: 5px solid #DB7093;
+	font-size: 60px;
+	margin: 0 auto;
+	width: 1220px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	border-radius: 30px;
+}
+
+.anthro img {
+	width: 410px;
+}
+
+section p a {
+	color: #708090
+}
+
+section p a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+section img {
+	border-radius: 50px;
+	padding: 20px;
+	width: 280px;
+}
+
+.social a {
+	float: right;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #DB7093;
+	padding: 8px;
+	font-size: 30px;
+}
+
+nav ul {
+	padding: left;
+	color: #DB7093;
+	font-size: 20px
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 20px
+}
+
+nav ul li a {
+	font-family: 'Alegreya Sans', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	color: #DB7093;
+}
+
+nav ul li a:hover {
+	color: #FFFFFF;
+}
+
+section a {
+	color: #708090;
+}
+
+section a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#hero img {
+	width: 1250px;
+	border-radius: 50px;
+}
+
+span {
+	color: #708090;
+}
+
+article p {
+	text-align: left;
+}
+
+#blog article img {
+	width: 400px;
+	border-radius: 50px;
+}
+
+#blog h1 {
+	border: 5px solid #DB7093;
+	width: 600px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+article a {
+	color: #708090;
+}
+
+article a:hover {
+	color: #FFFFFF;
+	font-weight: bold
+}
+
+footer p {
+	text-align: center;
+	font-size: 15px;
+}
+
